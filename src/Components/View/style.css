@@ -1,0 +1,440 @@
+.layout1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+}
+
+.iconpopup{
+    display: flex;
+    width: 1230px;
+    padding: 100px 30px;
+    align-items: flex-start;
+}
+
+.viewicon{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    align-self: stretch;
+
+    border-radius: 16px;
+    background: var(--support-light-grey, #F0F3F5);
+}
+
+.icondetail{
+    display: flex;
+    max-width: 400px;
+    padding: 30px;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+    align-self: stretch;
+
+    border-radius: 0px 16px 16px 0px;
+    background: var(--support-white, #FFF);
+}
+
+.viewiconholder{
+    display: flex;
+    height: 635px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    flex: 1 0 0;
+}
+
+.vihead{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.viview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.vitype{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.vhtype{
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+    flex-wrap: wrap;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    /* Link/Link */
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.vtclassic{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+
+    color: var(--brand-primary-violet, #7238FA);
+
+    
+}
+
+.vtdot{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+
+    color: var(--text-primary, #1E3050);
+}
+
+.vtsharp{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+
+    color: var(--text-primary, #1E3050);
+}
+
+.vvicon{
+    display: flex;
+    height: 195px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+.vvcolor{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.reset{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 1px solid var(--support-white, #FFF);
+    background: var(--support-white, #FFF);
+}
+
+.vtholder{
+    display: flex;
+    min-width: 60px;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.vhicon{
+    width: 48px;
+    height: 48px;
+}
+
+.vhtext{
+    color: var(--text-secondary, #676F7E);
+    text-align: center;
+
+    /* P/Small */
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.idholder{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.ihtop{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.ihcenter{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.ihbottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.itheader{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.ihname{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.ihtype{
+    display: flex;
+    height: 48px;
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch;
+
+    overflow: hidden;
+    color: var(--text-secondary, #676F7E);
+    text-overflow: ellipsis;
+    whitespace: nowrap;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+
+    color: var(--text-secondary, #676F7E);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.intype{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    flex: 1 0 0;
+
+    overflow: hidden;
+    color: var(--text-primary, #1E3050);
+    text-overflow: ellipsis;
+    
+    /* Link/Link */
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ihreport{
+    align-self: stretch;
+
+    color: var(--text-secondary, #676F7E);
+    text-align: right;
+    
+    /* P/Small */
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.inbadge{
+    display: flex;
+    padding: 0px 8px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 100px;
+    background: var(--support-light-grey, #F0F3F5);
+}
+
+.inlink{
+    width: 20px;
+    height: 20px;
+}
+
+.icstroke{
+    display: flex;
+    height: 57px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.icsize{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.icformate{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.istype{
+    align-self: stretch;
+    color: var(--text-secondary, #676F7E);
+
+    /* P/Small */
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ispagination{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.ipsize{
+    display: flex;
+    padding: 9px 11px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.ispagination{
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.isp{
+    display: flex;
+    height: 40px;
+    padding: 9px 11px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 100px;
+    border: 1px solid var(--support-light-grey, #F0F3F5);
+    background: var(--support-white, #FFF);
+}
+
+.ispn{
+    color: var(--text-primary, #1E3050);
+    text-align: center;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.iftype{
+    display: flex;
+    height: 40px;
+    padding: 2px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 100px;
+    border: 1px solid var(--support-light-grey, #F0F3F5);
+    background: var(--support-light-grey, #F0F3F5);
+}
+
+.ift{
+    color: var(--text-primary, #1E3050);
+
+    /* Link/Link */
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.add-download{
+    display: flex;
+    padding: 16px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    border-radius: 10px;
+    border: 2px solid #1E3050;
+    background: var(--support-light-grey, #F0F3F5);
+    box-shadow: 0px 3px 0px 0px #FFF inset, 0px 2px 0px 0px rgba(0, 0, 0, 0.20);
+}
+
+.svgbutton{
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    border-radius: var(--primary-radius, 10px);
+    border: 2px solid var(--primary-border, #1E3050);
+    background: var(--primary-fill, #FAD338);
+    box-shadow: 0px 3px 0px 0px #FFF inset, 0px 2px 0px 0px rgba(0, 0, 0, 0.20);
+
+    color: var(--primary-label, #1E3050);
+    text-align: center;
+    
+    /* Button/Button */
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
